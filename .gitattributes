@@ -1,0 +1,10 @@
+# Set default behavior to automatically normalize line endings
+* text=auto
+
+# Explicitly declare files that will always have CRLF line endings on checkout.
+*.sln text eol=crlf
+
+# Declare files that will always have LF line endings on checkout.
+*.md text eol=lf
+*.json text eol=lf
+*.js text eol=lf
