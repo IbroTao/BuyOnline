@@ -4,7 +4,10 @@
   "description": "An online e-commerce app which ensure seamless payment and transactions.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tsc",
+    "dev": "nodemon src/index.ts",
+    "start": "npm run build && node ./build/index.js"
   },
   "repository": {
     "type": "git",
